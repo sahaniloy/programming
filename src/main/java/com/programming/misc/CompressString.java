@@ -22,6 +22,6 @@ public class CompressString {
     }
 
     public static void main(String[] args) {
-        System.out.println(compress("abccccccccccccc"));
+        System.out.println(compress("aaaabbcccdddddd"));
     }
 }
