@@ -7,6 +7,13 @@ import java.util.Arrays;
  */
 public class LeftRotationArray {
 
+    /**
+     * Rotate the array for desired count
+     *
+     * @param arr           given array
+     * @param rotationCount rotation count
+     * @param lengthOfArray length of the given array
+     */
     private static void rotateLeft(int arr[], int rotationCount, int lengthOfArray) {
         for (int i = 0; i < rotationCount; i++)
             rotateLeftByOne(arr, lengthOfArray);
