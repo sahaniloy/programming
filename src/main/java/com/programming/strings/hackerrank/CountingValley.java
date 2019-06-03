@@ -1,4 +1,4 @@
-package com.programming.hackerrank;
+package com.programming.strings.hackerrank;
 
 /**
  * @author RS Software
