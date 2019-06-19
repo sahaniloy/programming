@@ -2,11 +2,11 @@ package com.programming.arrays.geeks4geeks;
 
 /**
  * Find an element in array such that sum of left array is equal to sum of right array
- * <p>
+ *
  * Input : 1 4 2 5
  * Output : 2
  * Explanation : If 2 is the partition,
- * Subarrays are : {1, 4} and {5}
+ * Sub-arrays are : {1, 4} and {5}
  */
 public class LeftSumRightSumInArray {
 
@@ -32,7 +32,7 @@ public class LeftSumRightSumInArray {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 4, 2, 5};
+        int[] arr = {4, 1, 3, 200, 8};
         System.out.println(findElement(arr, arr.length));
     }
 }
