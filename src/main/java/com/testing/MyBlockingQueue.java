@@ -8,6 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Implement custom blocking queue
+ * @author Niloy
  */
 public class MyBlockingQueue<E> {
     private int max;

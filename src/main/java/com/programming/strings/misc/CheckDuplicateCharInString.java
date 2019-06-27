@@ -2,6 +2,7 @@ package com.programming.strings.misc;
 
 /**
  * Prints duplicate characters of a given string
+ * @author Niloy
  */
 public class CheckDuplicateCharInString {
 

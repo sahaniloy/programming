@@ -6,13 +6,14 @@ import java.util.List;
 /**
  * Print list items containing all characters of a given word
  * https://www.geeksforgeeks.org/print-list-items-containing-all-characters-of-a-given-word/
+ * @author Niloy
  */
 public class PrintItemContainingAllChars {
 
-    public static final int LOWECASE_ALPHABET_COUNT = 26;
+    public static final int LOWER_CASE_ALPHABET_COUNT = 26;
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<>();
         list.add("sunday");
         list.add("took");
         list.add("unseason");
@@ -21,21 +22,20 @@ public class PrintItemContainingAllChars {
         }
     }
 
-    static void check(String str, String ron) {
+    static void check(String str, String word) {
         int matchedCharCount = 0;
-        int[] a = new int[LOWECASE_ALPHABET_COUNT];
+        int[] charCount = new int[LOWER_CASE_ALPHABET_COUNT];
 
         for (int i = 0; i < str.length(); i++) {
-            a[str.charAt(i) - 'a']++;
+            charCount[str.charAt(i) - 'a']++;
         }
 
-        for (int i = 0; i < ron.length(); i++) {
-
-            if (a[ron.charAt(i) - 'a'] >= 1)
+        for (int i = 0; i < word.length(); i++) {
+            if (charCount[word.charAt(i) - 'a'] >= 1)
                 matchedCharCount++;
         }
 
-        if (matchedCharCount == ron.length())
+        if (matchedCharCount == word.length())
             System.out.println(str);
     }
 }

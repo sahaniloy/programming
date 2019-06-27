@@ -2,6 +2,7 @@ package com.programming.strings.crackingcodingiterview;
 
 /**
  * Check if two Strings are permutation to each other
+ * @author Niloy
  */
 public class CheckPermutation {
 

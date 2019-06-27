@@ -2,6 +2,7 @@ package com.programming.strings.misc;
 
 /**
  * If the input s1 = "niloy" and input s2 = "saha". Then output will be "nsialhoay"
+ * @author Niloy
  */
 public class MergeTwoStrings {
 

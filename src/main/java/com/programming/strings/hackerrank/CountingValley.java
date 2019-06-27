@@ -1,7 +1,7 @@
 package com.programming.strings.hackerrank;
 
 /**
- * @author RS Software
+ * @author Niloy
  */
 public class CountingValley {
     private static int getCountingValley(String steps) {

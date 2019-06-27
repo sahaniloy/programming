@@ -2,6 +2,7 @@ package com.programming.strings.crackingcodingiterview;
 
 /**
  * Given a string, check whether the permutation of the characters are in palindrome
+ * @author Niloy
  */
 public class PermutationIsPalindrome {
 
@@ -24,7 +25,9 @@ public class PermutationIsPalindrome {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPermutationPalindrome("tactoca"));  //true
-        System.out.println(isPermutationPalindrome("abbccc"));  //false
+        String s1 = "tactoca";
+        String s2 = "abbccc";
+        System.out.println("Permutation of '" + s1 + "' is palindrome? : " + isPermutationPalindrome(s1));  //true
+        System.out.println("Permutation of '" + s2 + "' is palindrome? : " + isPermutationPalindrome(s2));  //false
     }
 }

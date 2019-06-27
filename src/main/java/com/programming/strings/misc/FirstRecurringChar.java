@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 /**
  * Prints first duplicate character of a given string.
+ * @author Niloy
  */
 public class FirstRecurringChar {
 

@@ -1,7 +1,8 @@
 package com.programming.strings.misc;
 
 /**
- * Reverse a String
+ * Reverse a String using recursion
+ * @author Niloy
  */
 public class StringReverse {
 

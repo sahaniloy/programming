@@ -5,6 +5,7 @@ import java.util.Map;
 
 /**
  * Given a set of words (in array) find the anagram words.
+ * @author Niloy Saha<niloysaha@gmail.com>
  */
 public class FindAnagramWords {
 
@@ -26,7 +27,7 @@ public class FindAnagramWords {
     //This method will find the unique key of each word in ascending order
     private static String getKey(String s) {
         String key = "";
-        boolean[] chars = new boolean[26];
+        boolean[] chars = new boolean[26]; //consider all letters in a given word is in lower case.
         for (char x : s.toCharArray()) {
             chars[x - 'a'] = true;
         }

@@ -2,6 +2,7 @@ package com.programming.strings.misc;
 
 /**
  * Prints the character of a given string which has maximum occurrence
+ * @author Niloy
  */
 public class MaxOccurrenceOfChar {
 

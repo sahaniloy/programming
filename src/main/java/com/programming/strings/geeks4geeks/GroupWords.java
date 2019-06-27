@@ -7,8 +7,10 @@ import java.util.Map;
 
 /**
  * Group words with same set of characters. Given a list of words with lower
- * cases. Implement a function to find all Words that have the same unique
+ * cases. Implement a function to find all words that have the same unique
  * character set
+ *
+ * @author Niloy
  */
 public class GroupWords {
 

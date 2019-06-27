@@ -4,7 +4,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * @author RS Software
+ * Find first non-repetitive character in given string
+ * @author Niloy Saha<niloysaha@gmail.com>
  */
 public class FindFirstNonRepeatedChar {
     public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class FindFirstNonRepeatedChar {
     }
 
     private static char findFirstNonRepeatedChar(String word) {
+        //We need to take the implementation of map as linked hashmap, so that the order of insertion is maintained
         Map<Character, Integer> charCountMap = new LinkedHashMap<>(word.length());
 
         for (char c : word.toCharArray()) {

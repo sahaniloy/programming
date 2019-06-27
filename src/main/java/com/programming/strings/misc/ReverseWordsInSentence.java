@@ -1,7 +1,7 @@
 package com.programming.strings.misc;
 
 /**
- * @author RS Software
+ * @author Niloy
  */
 public class ReverseWordsInSentence {
     public static void main(String[] args) {

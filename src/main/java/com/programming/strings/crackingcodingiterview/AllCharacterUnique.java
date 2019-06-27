@@ -2,6 +2,7 @@ package com.programming.strings.crackingcodingiterview;
 
 /**
  * Check whether all characters of a given string is unique or not
+ * @author Niloy
  */
 public class AllCharacterUnique {
 

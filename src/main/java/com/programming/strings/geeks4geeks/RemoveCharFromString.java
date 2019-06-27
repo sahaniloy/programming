@@ -1,7 +1,7 @@
 package com.programming.strings.geeks4geeks;
 
 /**
- * @author RS Software
+ * @author Niloy
  */
 public class RemoveCharFromString {
     static final int NO_OF_CHARS = 256;
@@ -33,13 +33,12 @@ public class RemoveCharFromString {
                 res_ind++;
             }
             ip_ind++;
-
         }
 
         str = new String(arr);
 
-      /* After above step string is ngring.
-      Removing extra "iittg" after string*/
+        //After above step string is ngring.
+        //Removing extra "iittg" after string
 
         return str.substring(0, res_ind);
     }

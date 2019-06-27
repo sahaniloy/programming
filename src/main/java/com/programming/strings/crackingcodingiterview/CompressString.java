@@ -1,7 +1,8 @@
 package com.programming.strings.crackingcodingiterview;
 
 /**
- * If the input is aaaabbcccdddddd then it will be compressed to a4b2c3d6
+ * Compress a string, E.g. if the input is aaaabbcccdddddd then it will be compressed to a4b2c3d6
+ * @author Niloy
  */
 public class CompressString {
 

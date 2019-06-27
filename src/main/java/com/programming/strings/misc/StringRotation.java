@@ -2,6 +2,7 @@ package com.programming.strings.misc;
 
 /**
  * Given 2 strings, check one is rotation of other
+ * @author Niloy
  */
 public class StringRotation {
 

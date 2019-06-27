@@ -3,6 +3,8 @@ package com.programming.strings.geeks4geeks;
 /**
  * Given a string of lowercase characters, the task is to print the string in a manner such that a character
  * comes first in string displays first with all its occurrences in string
+ *
+ * @author Niloy
  */
 public class GroupCharacters {
     private static void groupChars(String s) {
